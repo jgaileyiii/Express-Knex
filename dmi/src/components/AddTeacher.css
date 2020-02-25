@@ -1,0 +1,30 @@
+.add-teacher-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    height: 50%;
+    margin-top: 10%;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.add-teacher-form input {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    width: 100%;
+    font-family: 'Abril Fatface', cursive;
+
+}
+.add-teacher-form input[type=submit] {
+    font-family: 'Abril Fatface', cursive;
+    border: none;
+    text-decoration: none;
+}
+
+.add-teacher-form input[type=submit]:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

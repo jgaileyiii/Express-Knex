@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Rye&display=swap');
+
+body {
+  background: rgb(249,241,241);
+  
+}
+.title-login {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.title-login div{
+  margin-left: 10px;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.show-user p button {
+  display: flex;
+  flex-direction: row;
+}
+
+.show-user button {
+  font-family: 'Abril Fatface', cursive;
+  border: none;
+  text-decoration: none;
+}
+
+.show-user button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

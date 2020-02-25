@@ -1,0 +1,37 @@
+.teacher-card {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: dashed;
+    border-bottom: dashed;
+    border-width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.teacher-card:hover {
+    background: black;
+    color: white;
+}
+
+.teacher-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.teacher-info a {
+    text-decoration: none;
+    color: black;
+}
+
+.teacher-info a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.teacher-bio {
+    width: 300px;
+}
+

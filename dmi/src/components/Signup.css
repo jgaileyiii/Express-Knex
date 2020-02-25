@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Rye&display=swap');
+
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.signup input {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.signup input[type=submit]{
+    display: flex;
+    font-family: 'Abril Fatface', cursive;
+    border: none;
+    text-decoration: none;
+    align-items: center;
+    width: 50%;
+}
+
+.signup input[type=submit]:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
